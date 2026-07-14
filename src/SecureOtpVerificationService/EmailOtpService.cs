@@ -41,7 +41,7 @@ public sealed class EmailOtpService : IDisposable
 
         var otp = RandomNumberGenerator.GetInt32(0, 1_000_000).ToString("D6");
         var expiresAt = _timeProvider.GetUtcNow().Add(_otpLifetime);
-        var emailBody = $"You OTP Code is {otp}. The code is valid for 1 minute";
+        var emailBody = $"Your OTP Code is {otp}. The code is valid for 1 minute";
 
         try
         {
