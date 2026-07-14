@@ -1,6 +1,6 @@
 # Secure OTP Verification Service
 
-Secure email OTP assessment implementation using C# and .NET 8.
+Secure email OTP implementation using C# and .NET 8.
 
 ## Features
 
